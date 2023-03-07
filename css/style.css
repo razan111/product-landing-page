@@ -237,4 +237,95 @@ header .navbar #navbarSupportedContent .nav-item .nav-link.active{
 }
 
 
-.home-section .home-content .btn{}
+/* about section  */
+.about-section{
+    background-color: #fff;
+    padding: 80px 0 80px;
+}
+
+/* .about-section .col-lg-6{
+    border: 2px solid red;
+} */
+
+.about-section .about-img{
+    margin: auto;
+}
+
+.about-section .about-img img{
+    max-width: 350px;
+    width: 100%;
+}
+.section-title{
+    margin-bottom: 60px;
+    text-align: center;
+}
+.section-title .title{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    display: inline-block;
+    text-transform: uppercase;
+    margin:0 0 15px;
+    position: relative;
+    padding: 5px 10px;
+    z-index: 1;
+}
+
+.section-title .title::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: -1;
+    border-radius: 4px;
+    opacity: .1;
+}
+
+.section-title .subtitle{
+    font-size: 30px;
+    line-height: 38px;
+    color: #222222;
+    font-weight: 700;
+    margin: 0;
+}
+
+.about-section .section-title{
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.about-section .about-content p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #555555;
+    margin: 0;
+}
+
+.about-section .about-content ul{
+    display: block;
+    margin: 30px 0 0;
+}
+
+.about-section .about-content ul li{
+    font-size: 16px;
+    line-height: 26px;
+    color: #555555;
+    margin-bottom: 15px;
+    position: relative;
+    padding-left: 32px;
+}
+
+.about-section .about-content ul li i{
+    height: 25px;
+    width: 25px;
+    display: inline-block;
+    font-size: 16px;
+    text-align: center;
+    line-height: 26px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
