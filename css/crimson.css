@@ -1,3 +1,5 @@
+
+.features-section .features-item:hover,
 .section-title .title::before,
 .home-section,
 header{
@@ -6,6 +8,8 @@ header{
 
 
 
+
+.features-section .features-item .icon i,
 .about-section .about-content ul li i,
 .section-title .title,
 .mybtn1:hover,

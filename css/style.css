@@ -329,3 +329,56 @@ header .navbar #navbarSupportedContent .nav-item .nav-link.active{
     left: 0;
     top: 0;
 }
+
+/* features section  */
+
+.features-section{
+    background-color: #f5f5ff;
+    padding: 80px 0 50px;
+}
+
+.features-section .features-item{
+    box-shadow: 0 0 10px #dddde3;
+    padding: 40px 30px;
+    margin-bottom: 30px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    text-align: center;
+    transition: all .5s ease;
+}
+.features-section .features-item:hover{
+    transform: translateY(-10px);
+}
+
+.features-section .features-item .icon{
+   margin-bottom: 25px; 
+}
+
+.features-section .features-item .icon i{
+    font-size: 40px;
+    display: inline-block;
+    transition: all .5s ease;
+}
+
+.features-section .features-item h3{
+    font-size: 22px;
+    font-weight: 600;
+    color: #222222;
+    margin: 0 0 15px;
+    line-height: 30px;
+    transition: all .5s ease;
+}
+
+.features-section .features-item p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #555555;
+    margin: 0;
+    transition: all .5s ease;
+}
+
+.features-section .features-item:hover .icon i,
+.features-section .features-item:hover h3,
+.features-section .features-item:hover p{
+    color: #ffffff;
+}
