@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700;1,800&display=swap');
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo-circle{
+    height: 26px;
+    width: 26px;
+    border: 4px solid #fff;
+    display: inline-block;
+    margin-bottom: -2px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.logo-circle::before{
+    content: '';
+    height: 8px;
+    width: 8px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -4px;
+    margin-top: -4px;
+}
+
+.mybtn1{
+    background-color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 50px;
+    padding: 12px 36px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.mybtn1:focus{
+    box-shadow: none;
+}
+.mybtn1::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0%;
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 100%;
+    z-index: -1;
+    transition: all .3s ease;
+}
+
+.mybtn1:hover::before{
+    width: 100%;
+}
+
+
+header{
+    border-bottom: 1px solid rgba(255, 255, 255, .2);
+}
+
+header .navbar{
+    padding: 0;
+}
+header .navbar .navbar-brand{
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+}
+header .navbar #navbarSupportedContent .nav-item .nav-link{
+    color: #fff;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 600;
+    padding: 20px 15px;
+    line-height: 26px;
+    opacity: .7;
+}
+
+header .navbar #navbarSupportedContent .nav-item .nav-link.active{
+    opacity: 1;
+}
+
+.home-section{
+    padding: 250px 0 200px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.home-section::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -1px;
+    height: 125px;
+    background-image: url('/shape-bg.png');
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.home-section .home-content h1{
+    font-size: 55px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 60px;
+    margin: 0;
+}
+.home-section .home-content p{
+    color: #fff;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    line-height: 28px;
+    
+}
+
+.home-section .home-img{
+    position: relative;
+}
+
+.home-section .home-img img{
+    max-width: 400px;
+    width: 100%;
+    position: absolute;
+    left: 150px;
+    top: -50px;
+    animation: productani01 5s linear infinite;
+}
+
+@keyframes productani01{
+    0%,100%{
+        transform: translateY(15px);
+    }
+    50%{
+        transform: translateY(-15px);
+    }
+}
+
+.home-section .bg-shapes div{
+    position: absolute;
+    opacity: .2;
+
+}
+
+.home-section .bg-shapes div:nth-child(1){
+    height: 100px;
+    width: 100px;
+    top: 20%;
+    left: 20%;
+    border-radius: 50%;
+    background-color: #fff;
+    animation: shapeani01 5s linear infinite;
+}
+
+.home-section .bg-shapes div:nth-child(2){
+    height: 80px;
+    width: 80px;
+    top: 60%;
+    left: 60%;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 5px solid #fff;
+    border-bottom: 5px solid transparent;
+    animation: shapeani02 7s linear infinite;
+}
+
+.home-section .bg-shapes div:nth-child(3){
+    height: 60px;
+    width: 60px;
+    top: 10%;
+    left: 90%;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 5px solid #fff;
+    border-left: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    animation: shapeani02 7s linear infinite;
+}
+
+.home-section .bg-shapes div:nth-child(4){
+    height: 200px;
+    width: 200px;
+    top: 40%;
+    left: calc(100% - 100px);
+    border-radius: 50%;
+    background-color: #fff;
+    animation: shapeani03 10s linear infinite;
+}
+
+.home-section .bg-shapes div:nth-child(5){
+    height: 100px;
+    width: 100px;
+    top: 40%;
+    left: calc(0% - 50px);
+    background-color: transparent;
+    border: 5px solid #fff;
+    animation: shapeani02 10s linear infinite;
+}
+
+@keyframes shapeani01{
+    0%,100%{
+        transform: translateX(0px);
+    }
+    50%{
+        transform: translateX(50px);
+    }
+}
+
+@keyframes shapeani02{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes shapeani03{
+    0%,100%{
+        transform: scale(0.5);
+    }
+    50%{
+        transform: scale(1);
+    }
+}
+
+
+.home-section .home-content .btn{}
