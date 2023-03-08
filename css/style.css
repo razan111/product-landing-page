@@ -589,3 +589,25 @@ header .navbar #navbarSupportedContent .nav-item .nav-link.active{
     margin-top: -13px;
     display: block;
 }
+
+/* faq-section */
+.faq-section{
+    padding: 80px 0 80px;
+}
+
+.accordion-header .accordion-button{
+    color: transparent;
+}
+
+.faq-section .support-text{
+    margin: 15px 0 0;
+    font-size: 16px;
+    font-weight: 600;
+    color: #222222;
+    line-height: 26px;
+}
+
+a{
+    text-decoration: none;
+}
+
