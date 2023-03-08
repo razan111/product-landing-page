@@ -1,3 +1,7 @@
+
+.testimonial-section .owl-carousel .owl-nav button.owl-next:hover,
+.testimonial-section .owl-carousel .owl-nav button.owl-prev:hover,
+.testimonial-section::before,
 .products-section .owl-carousel .owl-nav button.owl-next,
 .products-section .owl-carousel .owl-nav button.owl-prev,
 .features-section .features-item:hover,
@@ -11,6 +15,9 @@ header{
 
 
 
+.testimonial-section .owl-carousel .owl-nav button.owl-next,
+.testimonial-section .owl-carousel .owl-nav button.owl-prev,
+.testimonial-section .client-info h5,
 .products-section .product-content .product-price .new-price,
 .features-section .features-item .icon i,
 .about-section .about-content ul li i,
@@ -18,4 +25,8 @@ header{
 .mybtn1:hover,
 .mybtn1{
     color: #d70d25;
+}
+
+.testimonial-section .client-info img{
+    border-color: #d70d25;
 }
