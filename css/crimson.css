@@ -1,4 +1,5 @@
-
+.products-section .owl-carousel .owl-nav button.owl-next,
+.products-section .owl-carousel .owl-nav button.owl-prev,
 .features-section .features-item:hover,
 .section-title .title::before,
 .home-section,
@@ -9,6 +10,8 @@ header{
 
 
 
+
+.products-section .product-content .product-price .new-price,
 .features-section .features-item .icon i,
 .about-section .about-content ul li i,
 .section-title .title,
