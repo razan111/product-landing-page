@@ -1,3 +1,4 @@
+.footer,
 .mybtn2,
 .newsletter-section::before,
 .testimonial-section .owl-carousel .owl-nav button.owl-next:hover,
@@ -14,6 +15,7 @@ header{
 
 
 
+.footer .footer-social-links a:hover i,
 .contact-section .contact-item h5,
 .contact-section .contact-item .icon i,
 .faq-section .support-text a,
