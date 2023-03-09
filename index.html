@@ -19,6 +19,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/crimson.css">
 </head>
 
@@ -36,25 +37,25 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
+                            <a class="nav-link" href="#about">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Features</a>
+                            <a class="nav-link" href="#features">Features</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Product</a>
+                            <a class="nav-link" href="#product">Product</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Testimonial</a>
+                            <a class="nav-link" href="#testimonial">Testimonial</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Faq</a>
+                            <a class="nav-link" href="#faq">Faq</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
+                            <a class="nav-link" href="#contact">Contact</a>
                         </li>
 
 
@@ -67,7 +68,7 @@
 
     <!-- home section  -->
 
-    <section class="home-section">
+    <section class="home-section" id="home">
         <div class="bg-shapes">
             <div></div>
             <div></div>
@@ -76,23 +77,27 @@
             <div></div>
         </div>
         <div class="container">
-            <div class="row row-cols-1 row-cols-md-2">
-                <div class="home-content">
-                    <h1>Present your awesome product</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur libero sed voluptate
-                        nostrum, dolorum culpa animi qui ducimus aspernatur ullam temporibus architecto facere porro at
-                        minus eum necessitatibus cum iure!</p>
-                    <button class="mybtn1" href="#">Buy For 1500</button>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="home-content">
+                        <h1>Present your awesome product</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur libero sed voluptate
+                            nostrum, dolorum culpa animi qui ducimus aspernatur ullam temporibus architecto facere porro at
+                            minus eum necessitatibus cum iure!</p>
+                        <button class="mybtn1" href="#">Buy For 1500</button>
+                    </div>
                 </div>
-                <div class="home-img">
-                    <img src="watch-01.png" alt="">
+                <div class="col-lg-6 order-first order-lg-last">
+                    <div class="home-img">
+                        <img src="watch-01.png" alt="">
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- about section  -->
-    <section class="about-section">
+    <section class="about-section" id="about">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 d-flex">
@@ -100,7 +105,7 @@
                         <img class="img-fluid" src="watch-02.jpg" alt="">
                     </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6 order-first order-lg-last">
                     <div class="section-title">
                         <h1 class="title">About Product</h1>
                         <h2 class="subtitle">Awesome digital watch can make your life</h2>
@@ -128,7 +133,7 @@
 
 
     <!-- features section  -->
-    <section class="features-section">
+    <section class="features-section" id="features">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-7">
@@ -212,7 +217,7 @@
 
     <!-- Product section  -->
 
-    <section class="products-section">
+    <section class="products-section" id="product">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-7">
@@ -326,7 +331,7 @@
 
     <!-- Testimonial section  -->
 
-    <section class="testimonial-section">
+    <section class="testimonial-section" id="testimonial">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-7">
@@ -417,7 +422,7 @@
 
     <!-- faq section  -->
 
-    <section class="faq-section">
+    <section class="faq-section" id="faq">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-7">
@@ -569,7 +574,7 @@
 
     <!-- contact section  -->
 
-    <section class="contact-section">
+    <section class="contact-section" id="contact">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-7">
@@ -618,7 +623,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-5">
+                <div class="col-md-5 order-first order-md-last">
                     <div class="contact-item">
                         <div class="icon">
                             <i class="bi bi-geo-alt-fill"></i>
