@@ -41,6 +41,10 @@ header {
     border-color: #6400ae;
 }
 
+.preloader .loader{
+    border-right: 5px solid #6400ae;
+}
+
 
 @media(max-width: 991px) {
     header .navbar #navbarSupportedContent .nav-item .nav-link {

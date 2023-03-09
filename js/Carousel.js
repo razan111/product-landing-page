@@ -1,3 +1,13 @@
+
+$(window).on('load', function(){
+    setTimeout(function(){
+        $(".preloader").fadeOut('slow');
+    },600);
+})
+
+
+
+
 $(document).ready(function () {
 
     // Add scrollspy to <body>
